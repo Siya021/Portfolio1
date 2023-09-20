@@ -1,14 +1,17 @@
 <template>
   <div>
     <NavBar />
+    <LandingPage/>
     <router-view />
   </div>
 </template>
 <script>
 import NavBar from "./components/NavBar.vue";
+import LandingPage from "./components/LandingPage.vue";
 export default {
   components: {
     NavBar,
+    LandingPage
   },
 };
 </script>
