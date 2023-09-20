@@ -68,6 +68,9 @@ export default {
 }
 p{
   font-style: italic;
+    background-color: white;
+  color: black;
+  margin: 10px;
 }
 
 </style>
